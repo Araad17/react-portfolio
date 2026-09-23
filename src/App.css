@@ -1,0 +1,32 @@
+.leftHeader {
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.rightHeader {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.centerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* margin-top: 5px; */
+}
+
+.index {
+    padding-top: 5px;
+}
+
+.about {
+    border-right: 1.5px solid #f0f3bd;
+    border-left: 1.5px solid #f0f3bd;
+    padding: 5px 20px 0;
+}
+
+.project {
+    margin-top: 5px;
+}
