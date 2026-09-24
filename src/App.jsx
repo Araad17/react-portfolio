@@ -5,6 +5,8 @@ import About from "./component/About";
 import Project from "./component/Project";
 import Contact from "./component/Contact";
 
+import { FaGithub, FaEnvelope } from "react-icons/fa";
+
 import { useState } from "react";
 import "./App.css";
 import "./index.css";
@@ -44,6 +46,27 @@ function App() {
 					<Route path="/project" element={<Project />} />
 					<Route path="/contact" element={<Contact />} />
 				</Routes>
+
+				<div className="footer">
+					<div className="find">
+						<div>find me at : </div>
+					</div>
+					<div className="github">
+						<a
+							href="https://github.com/yourusername"
+							target="_blank"
+							rel="noonpener noreferrer"
+							aria-label="GitHub"
+						>
+							<FaGithub />
+						</a>
+					</div>
+					<div className="email">
+						<a href="mailto:your@email.com" aria-label="Email">
+							<FaEnvelope />
+						</a>
+					</div>
+				</div>
 			</section>
 		</BrowserRouter>
 	);

@@ -1,20 +1,19 @@
 .leftHeader {
     margin-right: auto;
-    margin-left: 10px;
-    margin-top: 5px;
+    border-right: 1.5px solid #f0f3bd;
+    padding: 5px 10px 0;
 }
 
 .rightHeader {
     margin-left: auto;
-    margin-right: 10px;
-    margin-top: 5px;
+    border-left: 1.5px solid #f0f3bd;
+    padding: 5px 10px 0;
 }
 
 .centerHeader {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    /* margin-top: 5px; */
 }
 
 .index {
@@ -29,4 +28,40 @@
 
 .project {
     margin-top: 5px;
+}
+
+.footer {
+    height: 40px;
+    border-top: 1.5px solid #f0f3bd;
+    display: flex;
+    margin-top: auto;
+    flex-direction: row;
+}
+
+.find {
+    border-right: 1.5px solid #f0f3bd;
+    padding: 5px 20px 0 10px;
+}
+
+.github {
+    border-right: 1.5px solid #f0f3bd;
+    padding: 8px 10px 0;
+}
+
+.email {
+    margin-right: auto;
+    border-right: 1.5px solid #f0f3bd;
+    padding: 8px 10px 0;
+}
+
+.footer a {
+    color: var(--text);
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer a:hover {
+    color: var(--accent);
 }
