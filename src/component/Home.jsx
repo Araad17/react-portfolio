@@ -9,9 +9,9 @@ function Home() {
 				{/* left side */}
 				<p className="hi">🚀 Hi I'm</p>
 				<h1 className="yasin">Yasin Araad</h1>
-				<p>Frontend developer</p>
-				<p>UX & Graphic Designer</p>
-				<p>🎯 Let’s build something amazing together!</p>
+				<p className="intro-line">Frontend developer</p>
+				<p className="intro-line">UX & Graphic Designer</p>
+				<p className="intro-line">🎯 Let’s build something amazing together!</p>
 
 				<div>
 					<span className="orangeConst">const</span>{" "}
