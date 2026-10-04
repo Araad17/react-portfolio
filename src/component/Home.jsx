@@ -9,8 +9,14 @@ function Home() {
 				{/* left side */}
 				<p className="hi">🚀 Hi I'm</p>
 				<h1 className="yasin">Yasin Araad</h1>
-				<p className="intro-line">Frontend developer</p>
-				<p className="intro-line">UX & Graphic Designer</p>
+				<p className="intro-line">
+					{" "}
+					<span className="arrow">&gt;</span> Frontend developer
+				</p>
+				<p className="intro-line">
+					{" "}
+					<span className="arrow">&gt;</span> UX & Graphic Designer
+				</p>
 				<p className="intro-line">🎯 Let’s build something amazing together!</p>
 
 				<div>

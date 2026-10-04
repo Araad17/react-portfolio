@@ -220,3 +220,10 @@ a {
         transform: translateY(0);
     }
 }
+
+.arrow {
+    font-size: 18px;
+    font-width: bolder;
+    display: inline-block;
+    color: #ff3131;
+}

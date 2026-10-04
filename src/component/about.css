@@ -1,0 +1,62 @@
+.profileName {
+    color: coral;
+}
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1.5px solid lime;
+    margin-top: 30px;
+}
+
+.profileDec {
+    margin: auto;
+}
+
+strong {
+    color: coral;
+    font-width: 700;
+}
+
+.profileT {
+    color: #ffffff;
+    font-width: 700;
+}
+
+.profileImage {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: slideDown 0.6s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profileDec {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideUp 0.6s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
