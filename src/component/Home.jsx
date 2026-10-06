@@ -8,7 +8,7 @@ function Home() {
 			<div className="homeLeft col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 				{/* left side */}
 				<p className="hi">🚀 Hi I'm</p>
-				<h1 className="yasin">Yasin Araad</h1>
+				<h1 className="yasin">Yasin Araad </h1>
 				<p className="intro-line">
 					{" "}
 					<span className="arrow">&gt;</span> Frontend developer
