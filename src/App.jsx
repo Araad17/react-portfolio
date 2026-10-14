@@ -53,7 +53,7 @@ function App() {
 					</div>
 					<div className="github">
 						<a
-							href="https://github.com/yourusername"
+							href="https://github.com/Araad17"
 							target="_blank"
 							rel="noonpener noreferrer"
 							aria-label="GitHub"
